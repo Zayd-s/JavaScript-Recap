@@ -41,8 +41,9 @@ tScope();
 console.log(globalScope);
 
 //return a value from a function with return
+console.log("hikirjseigjersigo");
 function timesFive(number) {
-  return number * 5;
+  return number * 5; //can use console.log() instead of return
 }
 var answer = timesFive(5);
 console.log(answer);
